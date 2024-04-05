@@ -1,0 +1,180 @@
+.outer-container {
+  position: relative;
+}
+
+.background-container {
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 3.5rem;
+  box-sizing: border-box;
+}
+
+.left-header {
+  flex: 1;
+}
+
+.right-header {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  height: 3rem;
+  width: 8.5rem;
+  cursor: pointer;
+}
+
+.login,
+.signup {
+  border: none;
+  margin-left: 0.7rem;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.signup {
+  background-color: none;
+  color: white;
+  background-color: #594195;
+  font-weight: 600;
+}
+
+.login {
+  border-radius: 9.5rem / 10rem;
+  padding: 0.6rem 1rem;
+  color: black;
+  background-color: white;
+  font-weight: 700;
+}
+
+.login:hover {
+  color: #594195;
+}
+
+.signup:hover {
+  text-decoration: underline;
+}
+
+.center-div {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.main-heading {
+  font-weight: 900;
+  font-size: 3.8rem;
+  color: white;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.main-paragraph {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.paragraph-2 {
+  display: grid;
+  margin-top: 4.5rem;
+  align-items: center;
+  justify-items: center;
+
+}
+
+.section-1 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.signup-button {
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 9rem/10rem;
+  font-size: 1.2rem;
+  background-color: white;
+  color: #594195;
+  font-weight: 700;
+  align-self: center;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  box-shadow: 0 15px 30px -6px rgba(0, 0, 0, 0.3);
+
+}
+
+.login-button {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  align-self: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.login-button:hover {
+  text-decoration: underline;
+}
+
+.outer-container-2 {
+  display: flex;
+  padding: 7rem 4.5rem;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+  transition: transform 0.5s ease;
+  margin: 0px 2rem;
+}
+
+.left-section {
+  align-self: center;
+  padding: 0 2.5rem;
+}
+
+.image-section {
+  height: 24rem;
+  transition: transform 0.5s ease;
+}
+
+.right-section {
+  display: grid;
+  align-self: start;
+  padding: 0 2.5rem;
+
+}
+
+.right-section-heading {
+  font-size: 2.1rem;
+  text-align: left;
+  font-weight: 600;
+  margin-top: 4rem;
+}
+
+.right-section-paragraph {
+  font-size: 18px;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+#outer-container-3 {
+  background-color: gainsboro !important;
+}

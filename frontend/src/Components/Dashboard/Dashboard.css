@@ -1,0 +1,61 @@
+.dashboard-container{
+    background-color: gainsboro;
+    width:100%;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5rem; 
+    width:100%;
+    padding: 1rem 3rem;
+}
+
+.section{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.user-feed{
+    width: 22rem;
+}
+
+.user{
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 1.5rem; 
+    width:100%;
+    grid-template-rows: auto auto; 
+}
+
+.user-div{
+    display: flex;
+}
+.username-info{
+    display:flex;
+}
+
+.username-and-friends{
+    display:grid;
+}
+
+.section-one{
+    flex:1;
+}
+
+.profile-photo{
+    margin-right: 0.7rem;
+    border-radius: 50%;
+}
+
+.friend-count{
+    font-weight: 300;
+    font-size: 11px;
+}
+
+.username-and-friends{
+    text-align: left;
+}

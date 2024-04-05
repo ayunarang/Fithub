@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display:flex;
+    padding: 1rem 5rem;
+    text-align:center;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    height:2.3rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+.left-header input{
+    padding: 0.5rem 0.8rem;
+    font-size: 12px;
+    height: 2.2rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: gainsboro;
+}
+
+.left-header{
+    display:flex;
+    flex:1;
+    align-items: center;
+}
+
+.right-header{
+    display:flex;
+    align-items: center;
+}
+
+.right-header-1{
+    display:flex;
+    flex:1;
+    align-items: center;
+}
+
+.right-header-2{
+flex:1;
+align-items: center;
+
+}
+
+.icon-container{
+    margin: 0 0 0 0.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0.5rem 0.6rem;
+    display: flex;
+}
+
+.icon-container:hover {
+    background-color:#e4e5fd ;
+}
+
+.right-header-icons{
+    height: 1rem;
+    width:1rem;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+
+.right-header-profile-name{
+    background-color: gainsboro;
+    padding: 0.4rem 1rem;
+    border-radius: 3px;
+    margin:0 0 0 1.6rem;
+    width:fit-content;
+    display:flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.username{
+border: none;
+  padding: 0;
+  font-size: 11px;
+  font-weight: 600;
+  align-self: center;
+  justify-self: center;
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+.dropdown-icon{
+    height:0.6rem;
+    width:0.5rem;
+    align-self:center;
+    margin-left: 0.2rem;
+    padding-top: 0.1rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left:0;
+    top:100%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    font-size: 12px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    padding: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: grid;
+  }
+
+  .dropdown-custom-content {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 400;
+  }
+
+  .dropdown-hr{
+    color: black;
+    width:100%;
+  }
+  
